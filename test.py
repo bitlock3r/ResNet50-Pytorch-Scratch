@@ -7,4 +7,3 @@ if __name__ == '__main__':
     model = ResNet50()
     predictions = model(random_image) 
     print(predictions[0])
-    print("Hello World!")
